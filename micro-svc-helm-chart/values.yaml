@@ -1,0 +1,10 @@
+applicationName: demo-micro-svc
+replicaCount: 1
+
+container:
+ image: nginx:1.22.0
+ port: 80
+service:
+  type: ClusterIP
+  port: 80
+ 
