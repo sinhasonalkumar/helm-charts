@@ -4,6 +4,7 @@ replicaCount: 6
 container:
  image: nginx:1.23.0-alpine
  port: 80
+ imagePullPolicy: Always
 service:
   type: ClusterIP
   port: 80
