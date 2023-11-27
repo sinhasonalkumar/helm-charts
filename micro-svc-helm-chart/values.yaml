@@ -1,5 +1,5 @@
 applicationName: demo-micro-svc
-replicaCount: 6
+replicaCount: 5
 
 container:
  port: 80
